@@ -17845,7 +17845,7 @@
         "supports_reasoning": true,
         "supports_tool_choice": true
     },
-	"doubao-seed-2-0-lite-260215": {
+	"seed-2-0-lite-260228": {
         "litellm_provider": "openai",
         "max_input_tokens": 256000,
         "max_output_tokens": 128000,
