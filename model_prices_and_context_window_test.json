@@ -18532,20 +18532,6 @@
         "supports_tool_choice": true,
         "supports_vision": true
     },
-    "qwen3-vl-32b-thinking": {
-        "input_cost_per_token": 1.6e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "output_cost_per_token": 2.87e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "supports_vision": true
-    },
     "qwen3-vl-plus": {
         "litellm_provider": "openai",
         "max_input_tokens": 260096,
@@ -39753,5 +39739,42 @@
         "tool_use_system_prompt_tokens": 346,
         "supports_native_structured_output": true,
         "supports_pdf_input": true
+    },
+    "minimax-m2.5": {
+        "litellm_provider": "openai",
+        "max_input_tokens": 196608,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "source": "https://api.minimax.chat/news/minimax-m25",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": true,
+        "tiered_pricing": [
+            {
+                "input_cost_per_token": 3e-07,
+                "output_cost_per_token": 1.2e-06,
+                "range": [
+                    0,
+                    32000.0
+                ]
+            },
+            {
+                "input_cost_per_token": 3e-07,
+                "output_cost_per_token": 1.2e-06,
+                "range": [
+                    32000.0,
+                    128000.0
+                ]
+            },
+            {
+                "input_cost_per_token": 3e-07,
+                "output_cost_per_token": 1.2e-06,
+                "range": [
+                    128000.0,
+                    196608.0
+                ]
+            }
+        ]
     }
 }
