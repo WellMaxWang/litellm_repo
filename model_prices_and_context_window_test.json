@@ -18434,6 +18434,8 @@
         "litellm_provider": "openai",
         "max_input_tokens": 258048,
         "max_output_tokens": 65536,
+		"input_cost_per_token": 2e-06,
+        "input_cost_per_token_priority": 12e-06,
         "max_tokens": 65536,
         "mode": "chat",
         "source": "https://www.alibabacloud.com/help/en/model-studio/models",
