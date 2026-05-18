@@ -18430,6 +18430,43 @@
             }
         ]
     },
+	"qwen3.6-plus": {
+        "litellm_provider": "openai",
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": true,
+        "tiered_pricing": [
+            {
+                "input_cost_per_token": 2e-06,
+                "output_cost_per_token": 12e-06,
+                "range": [
+                    0,
+                    32000.0
+                ]
+            },
+            {
+                "input_cost_per_token": 2e-06,
+                "output_cost_per_token": 12e-05,
+                "range": [
+                    32000.0,
+                    128000.0
+                ]
+            },
+            {
+                "input_cost_per_token": 2e-06,
+                "output_cost_per_token": 12e-05,
+                "range": [
+                    128000.0,
+                    252000.0
+                ]
+            }
+        ]
+    },
     "qwen3-max-2026-01-23": {
         "litellm_provider": "openai",
         "max_input_tokens": 258048,
