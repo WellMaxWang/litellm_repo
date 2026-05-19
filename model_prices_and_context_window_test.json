@@ -17833,615 +17833,15 @@
         "supports_service_tier": true,
         "supports_vision": true
     },
-	    "qwen-coder": {
-        "input_cost_per_token": 3e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_token": 1.5e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-	"seed-2-0-lite-260228": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 256000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "source": "https://www.volcengine.com/docs/82379/1330310",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": false,
-        "supports_vision": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 8.7e-08,
-                "output_cost_per_token": 5.2e-07,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.3e-07,
-                "output_cost_per_token": 7.8e-07,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.6e-07,
-                "output_cost_per_token": 1.6e-06,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            }
-        ]
-    },
-    "qwen-flash": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 5e-08,
-                "output_cost_per_token": 4e-07,
-                "range": [
-                    0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.5e-07,
-                "output_cost_per_token": 2e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen-flash-2025-07-28": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 5e-08,
-                "output_cost_per_token": 4e-07,
-                "range": [
-                    0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.5e-07,
-                "output_cost_per_token": 2e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen-max": {
-        "input_cost_per_token": 1.6e-06,
-        "litellm_provider": "openai",
-        "max_input_tokens": 30720,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "output_cost_per_token": 6.4e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-plus": {
-        "input_cost_per_token": 4e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 129024,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_token": 1.2e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-plus-2025-01-25": {
-        "input_cost_per_token": 4e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 129024,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "output_cost_per_token": 1.2e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-plus-2025-04-28": {
-        "input_cost_per_token": 4e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 129024,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_reasoning_token": 4e-06,
-        "output_cost_per_token": 1.2e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-plus-2025-07-14": {
-        "input_cost_per_token": 4e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 129024,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_reasoning_token": 4e-06,
-        "output_cost_per_token": 1.2e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-plus-2025-07-28": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 4e-07,
-                "output_cost_per_reasoning_token": 4e-06,
-                "output_cost_per_token": 1.2e-06,
-                "range": [
-                    0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.2e-06,
-                "output_cost_per_reasoning_token": 1.2e-05,
-                "output_cost_per_token": 3.6e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen-plus-2025-09-11": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 4e-07,
-                "output_cost_per_reasoning_token": 4e-06,
-                "output_cost_per_token": 1.2e-06,
-                "range": [
-                    0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.2e-06,
-                "output_cost_per_reasoning_token": 1.2e-05,
-                "output_cost_per_token": 3.6e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen-plus-latest": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 4e-07,
-                "output_cost_per_reasoning_token": 4e-06,
-                "output_cost_per_token": 1.2e-06,
-                "range": [
-                    0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.2e-06,
-                "output_cost_per_reasoning_token": 1.2e-05,
-                "output_cost_per_token": 3.6e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen-turbo": {
-        "input_cost_per_token": 5e-08,
-        "litellm_provider": "openai",
-        "max_input_tokens": 129024,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_reasoning_token": 5e-07,
-        "output_cost_per_token": 2e-07,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-turbo-2024-11-01": {
-        "input_cost_per_token": 5e-08,
-        "litellm_provider": "openai",
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "output_cost_per_token": 2e-07,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-turbo-2025-04-28": {
-        "input_cost_per_token": 5e-08,
-        "litellm_provider": "openai",
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_reasoning_token": 5e-07,
-        "output_cost_per_token": 2e-07,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen-turbo-latest": {
-        "input_cost_per_token": 5e-08,
-        "litellm_provider": "openai",
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "output_cost_per_reasoning_token": 5e-07,
-        "output_cost_per_token": 2e-07,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen3-30b-a3b": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 129024,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true
-    },
-    "qwen3-coder-flash": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "cache_read_input_token_cost": 8e-08,
-                "input_cost_per_token": 3e-07,
-                "output_cost_per_token": 1.5e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "cache_read_input_token_cost": 1.2e-07,
-                "input_cost_per_token": 5e-07,
-                "output_cost_per_token": 2.5e-06,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "cache_read_input_token_cost": 2e-07,
-                "input_cost_per_token": 8e-07,
-                "output_cost_per_token": 4e-06,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            },
-            {
-                "cache_read_input_token_cost": 4e-07,
-                "input_cost_per_token": 1.6e-06,
-                "output_cost_per_token": 9.6e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen3-coder-flash-2025-07-28": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 3e-07,
-                "output_cost_per_token": 1.5e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 5e-07,
-                "output_cost_per_token": 2.5e-06,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 8e-07,
-                "output_cost_per_token": 4e-06,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.6e-06,
-                "output_cost_per_token": 9.6e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen3-coder-plus": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "cache_read_input_token_cost": 1e-07,
-                "input_cost_per_token": 1e-06,
-                "output_cost_per_token": 5e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "cache_read_input_token_cost": 1.8e-07,
-                "input_cost_per_token": 1.8e-06,
-                "output_cost_per_token": 9e-06,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "cache_read_input_token_cost": 3e-07,
-                "input_cost_per_token": 3e-06,
-                "output_cost_per_token": 1.5e-05,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            },
-            {
-                "cache_read_input_token_cost": 6e-07,
-                "input_cost_per_token": 6e-06,
-                "output_cost_per_token": 6e-05,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen3-coder-plus-2025-07-22": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 997952,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 1e-06,
-                "output_cost_per_token": 5e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.8e-06,
-                "output_cost_per_token": 9e-06,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 3e-06,
-                "output_cost_per_token": 1.5e-05,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 6e-06,
-                "output_cost_per_token": 6e-05,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
-    },
-    "qwen3-max-preview": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 258048,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 1.2e-06,
-                "output_cost_per_token": 6e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.4e-06,
-                "output_cost_per_token": 1.2e-05,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 3e-06,
-                "output_cost_per_token": 1.5e-05,
-                "range": [
-                    128000.0,
-                    252000.0
-                ]
-            }
-        ]
-    },
-    "qwen3-max": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 258048,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 1.2e-06,
-                "output_cost_per_token": 6e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.4e-06,
-                "output_cost_per_token": 1.2e-05,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 3e-06,
-                "output_cost_per_token": 1.5e-05,
-                "range": [
-                    128000.0,
-                    252000.0
-                ]
-            }
-        ]
-    },
-	"qwen3.6-flash": {
-        "cache_read_input_token_cost": 2.5e-08,
-        "cache_read_input_token_cost_priority": 4.5e-08,
-        "input_cost_per_token": 1.2e-06,
-        "input_cost_per_token_priority": 4.5e-07,
+"deepseek-v3.2": {
+        "cache_read_input_token_cost": 1.14e-07,
+        "input_cost_per_token": 5.7e-07,
         "litellm_provider": "openai",
         "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
-        "output_cost_per_token": 7.2e-06,
-        "output_cost_per_token_priority": 10.6e-06,
+        "output_cost_per_token": 1.71e-06,
         "supported_endpoints": [
             "/v1/responses"
         ],
@@ -18467,241 +17867,2555 @@
         "supports_xhigh_reasoning_effort": false,
         "supports_minimal_reasoning_effort": true
     },
-	"qwen3.6-plus": {
+"deepseek-v4-pro": {
+        "cache_read_input_token_cost": 2e-07,
+        "input_cost_per_token": 2.4e-06,
         "litellm_provider": "openai",
-        "max_input_tokens": 258048,
-        "max_output_tokens": 65536,
-		"input_cost_per_token": 2e-06,
-        "input_cost_per_token_priority": 12e-06,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.8e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
         "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 2e-06,
-                "output_cost_per_token": 12e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2e-06,
-                "output_cost_per_token": 12e-05,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2e-06,
-                "output_cost_per_token": 12e-05,
-                "range": [
-                    128000.0,
-                    252000.0
-                ]
-            }
-        ]
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-    "qwen3-max-2026-01-23": {
+"deepseek-v4-flash": {
+        "cache_read_input_token_cost": 4e-08,
+        "input_cost_per_token": 2e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 258048,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
         "supports_tool_choice": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 1.2e-06,
-                "output_cost_per_token": 6e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.4e-06,
-                "output_cost_per_token": 1.2e-05,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 3e-06,
-                "output_cost_per_token": 1.5e-05,
-                "range": [
-                    128000.0,
-                    252000.0
-                ]
-            }
-        ]
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-    "qwen3-next-80b-a3b-instruct": {
-        "input_cost_per_token": 1.5e-07,
+"qwen3.6-plus": {
+        "cache_read_input_token_cost": 6.25e-07,
+        "input_cost_per_token": 5e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 262144,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "output_cost_per_token": 1.2e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
-        "supports_tool_choice": true
-    },
-    "qwen3-next-80b-a3b-thinking": {
-        "input_cost_per_token": 1.5e-07,
-        "litellm_provider": "openai",
-        "max_input_tokens": 262144,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "output_cost_per_token": 1.2e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-    "qwen3-vl-235b-a22b-instruct": {
+"qwen3.5-plus": {
+        "cache_read_input_token_cost": 5e-07,
         "input_cost_per_token": 4e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "output_cost_per_token": 1.6e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-    "qwen3-vl-235b-a22b-thinking": {
+"qwen3.5-flash": {
+        "cache_read_input_token_cost": 1e-08,
+        "input_cost_per_token": 1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.5-397b-a17b": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 6e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3.6e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.5-35b-a3b": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 2.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.5-27b": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 3e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.5-122b-a10b": {
+        "cache_read_input_token_cost": 1e-07,
         "input_cost_per_token": 4e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-max": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 1.2e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-plus": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 4e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-plus-latest": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 4e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
         "output_cost_per_token": 4e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
         "supports_tool_choice": true,
-        "supports_vision": true
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-    "qwen3-vl-32b-instruct": {
+"qwen-flash": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 5e-08,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-coder-plus": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 1e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 5e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-coder-flash": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 3e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.5e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-flash": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 5e-08,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-vl-ocr": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 7e-08,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.6e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-mt-flash": {
+        "cache_read_input_token_cost": 1e-07,
         "input_cost_per_token": 1.6e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.9e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-mt-plus": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 2.46e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 7.37e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-plus-character-ja": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-32b-instruct": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 1.6e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
         "output_cost_per_token": 6.4e-07,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
-        "supports_tool_choice": true,
-        "supports_vision": true
-    },
-    "qwen3-vl-plus": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 260096,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 2e-07,
-                "output_cost_per_token": 1.6e-06,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 3e-07,
-                "output_cost_per_token": 2.4e-06,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 6e-07,
-                "output_cost_per_token": 4.8e-06,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            }
-        ]
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-	"qwen3-vl-32b-thinking": {
+"qwen3-vl-32b-thinking": {
+        "cache_read_input_token_cost": 1e-07,
         "input_cost_per_token": 1.6e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "output_cost_per_token": 2.87e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true,
-        "supports_vision": true
-    },
-    "qwen3.5-27b": {
-        "litellm_provider": "openai",
-        "max_input_tokens": 991808,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
         "supports_tool_choice": true,
         "supports_vision": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 4e-07,
-                "output_cost_per_token": 2.4e-06,
-                "range": [
-                    0,
-                    256000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 5e-07,
-                "output_cost_per_token": 3e-06,
-                "range": [
-                    256000.0,
-                    1000000.0
-                ]
-            }
-        ]
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
-    "qwq-plus": {
+"qwen3-vl-30b-a3b-instruct": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 8e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-30b-a3b-thinking": {
+        "cache_read_input_token_cost": 1e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-8b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 7e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-8b-thinking": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.1e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-235b-a22b-thinking": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 4e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-235b-a22b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 4e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.6e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-next-80b-a3b-thinking": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-next-80b-a3b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-coder-30b-a3b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 4.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.25e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-30b-a3b-thinking-2507": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-30b-a3b-instruct-2507": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 8e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-235b-a22b-thinking-2507": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.3e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.3e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-coder-480b-a35b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.5e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 7.5e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-235b-a22b-instruct-2507": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.3e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 9.2e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-14b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 3.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-4b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.26e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-30b-a3b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-8b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.8e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.1e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-0.6b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.26e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-32b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.6e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-235b-a22b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 7e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 8.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-1.7b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.26e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qvq-max": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.2e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.8e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qvq-max-latest": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.2e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.8e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-max": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.6e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-max-latest": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.6e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwq-plus": {
+        "cache_read_input_token_cost": 1.8e-07,
         "input_cost_per_token": 8e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 98304,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
         "output_cost_per_token": 2.4e-06,
-        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
-        "supports_tool_choice": true
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-turbo": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-08,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 5e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-turbo-latest": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-08,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 5e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-vl-max": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 8e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-vl-max-latest": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 8e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-vl-plus": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.3e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-vl-plus-latest": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.3e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-mt-turbo": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.6e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.9e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-vl-32b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.4e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.2e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-7b-instruct-1m": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 3.68e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.47e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-14b-instruct-1m": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 8.05e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3.22e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-vl-7b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 3.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.05e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-vl-3b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 6.3e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-vl-72b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.8e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 8.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-72b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.4e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 5.6e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-7b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.75e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 7e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-14b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 3.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen2.5-32b-instruct": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 7e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 2.8e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.6-max-preview": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.3e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 7.8e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.6-max-preview": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1.3e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 7.8e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.6-flash": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.5e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.6-35b-a3b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.48e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.485e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3.6-27b": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 6e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3.6e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-vl-plus": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.6e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen3-coder-next": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 3e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.5e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-plus-character": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.4e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"qwen-flash-character": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-08,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
     "gpt-4o": {
         "cache_read_input_token_cost": 1.25e-06,
