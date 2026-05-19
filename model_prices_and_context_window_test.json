@@ -41332,43 +41332,209 @@
             }
         ]
     },
-    "volcengine/doubao-seed-2-0-lite-260215": {
-        "litellm_provider": "volcengine",
-        "max_input_tokens": 256000,
+	"volcengine/seed-2-0-pro-260328": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "chat",
-        "source": "https://www.volcengine.com/docs/82379/1330310",
+        "mode": "responses",
+        "output_cost_per_token": 3e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
         "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
         "supports_reasoning": true,
-        "supports_tool_choice": false,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
         "supports_vision": true,
-        "tiered_pricing": [
-            {
-                "input_cost_per_token": 8.7e-08,
-                "output_cost_per_token": 5.2e-07,
-                "range": [
-                    0,
-                    32000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 1.3e-07,
-                "output_cost_per_token": 7.8e-07,
-                "range": [
-                    32000.0,
-                    128000.0
-                ]
-            },
-            {
-                "input_cost_per_token": 2.6e-07,
-                "output_cost_per_token": 1.6e-06,
-                "range": [
-                    128000.0,
-                    256000.0
-                ]
-            }
-        ]
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"volcengine/seed-2-0-code-preview-260328": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"volcengine/deepseek-v3-1-250821": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5.6e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 1.68e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"volcengine/deepseek-v3-2-251201": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 2.8e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 4.2e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"volcengine/deepseek-r1-250528": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 5e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 3e-06,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
+    },
+"volcengine/gpt-oss-120b-250805": {
+        "cache_read_input_token_cost": 1.8e-07,
+        "input_cost_per_token": 1e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "output_cost_per_token": 5e-07,
+        "supported_endpoints": [
+            "/v1/responses"
+        ],
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_function_calling": true,
+        "supports_native_streaming": true,
+        "supports_parallel_function_calling": true,
+        "supports_pdf_input": true,
+        "supports_prompt_caching": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_system_messages": false,
+        "supports_tool_choice": true,
+        "supports_vision": true,
+        "supports_web_search": true,
+        "supports_none_reasoning_effort": false,
+        "supports_xhigh_reasoning_effort": false,
+        "supports_minimal_reasoning_effort": true
     },
 	"volcengine/seed-2-0-mini-260215": {
         "litellm_provider": "volcengine",
@@ -41408,6 +41574,45 @@
             }
         ]
     },
+    "volcengine/doubao-seed-2-0-lite-260215": {
+        "litellm_provider": "volcengine",
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "source": "https://www.volcengine.com/docs/82379/1330310",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": false,
+        "supports_vision": true,
+        "tiered_pricing": [
+            {
+                "input_cost_per_token": 8.7e-08,
+                "output_cost_per_token": 5.2e-07,
+                "range": [
+                    0,
+                    32000.0
+                ]
+            },
+            {
+                "input_cost_per_token": 1.3e-07,
+                "output_cost_per_token": 7.8e-07,
+                "range": [
+                    32000.0,
+                    128000.0
+                ]
+            },
+            {
+                "input_cost_per_token": 2.6e-07,
+                "output_cost_per_token": 1.6e-06,
+                "range": [
+                    128000.0,
+                    256000.0
+                ]
+            }
+        ]
+    },
+
     "volcengine/doubao-seed-2-0-mini-260215": {
         "litellm_provider": "volcengine",
         "max_input_tokens": 256000,
