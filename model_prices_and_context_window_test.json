@@ -6382,6 +6382,18 @@
         "supports_reasoning": true,
         "supports_tool_choice": true
     },
+    "azure_ai/deepseek-r1-0528": {
+        "input_cost_per_token": 1.35e-06,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "output_cost_per_token": 5.4e-06,
+        "source": "https://techcommunity.microsoft.com/blog/machinelearningblog/deepseek-r1-improved-performance-higher-limits-and-transparent-pricing/4386367",
+        "supports_reasoning": true,
+        "supports_tool_choice": true
+    },
     "azure_ai/deepseek-v3": {
         "input_cost_per_token": 1.14e-06,
         "litellm_provider": "azure_ai",
