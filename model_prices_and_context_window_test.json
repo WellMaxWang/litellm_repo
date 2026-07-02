@@ -22928,6 +22928,21 @@
         "supports_vision": true,
         "supports_pdf_input": true
     },
+    "gpt-image-1.5-premium": {
+        "cache_read_input_image_token_cost": 2e-06,
+        "cache_read_input_token_cost": 1.25e-06,
+        "input_cost_per_token": 5e-06,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "output_cost_per_token": 1e-05,
+        "input_cost_per_image_token": 8e-06,
+        "output_cost_per_image_token": 3.2e-05,
+        "supported_endpoints": [
+            "/v1/images/generations"
+        ],
+        "supports_vision": true,
+        "supports_pdf_input": true
+    },
     "gpt-image-1.5-2025-12-16": {
         "cache_read_input_image_token_cost": 2e-06,
         "cache_read_input_token_cost": 1.25e-06,
@@ -25203,6 +25218,19 @@
             "/v1/images/edits"
         ]
     },
+    "gpt-image-1-premium": {
+        "cache_read_input_image_token_cost": 2.5e-06,
+        "cache_read_input_token_cost": 1.25e-06,
+        "input_cost_per_image_token": 1e-05,
+        "input_cost_per_token": 5e-06,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "output_cost_per_image_token": 4e-05,
+        "supported_endpoints": [
+            "/v1/images/generations",
+            "/v1/images/edits"
+        ]
+    },
     "gpt-image-1-mini": {
         "cache_read_input_image_token_cost": 2.5e-07,
         "cache_read_input_token_cost": 2e-07,
@@ -25216,7 +25244,33 @@
             "/v1/images/edits"
         ]
     },
+    "gpt-image-1-mini-premium": {
+        "cache_read_input_image_token_cost": 2.5e-07,
+        "cache_read_input_token_cost": 2e-07,
+        "input_cost_per_image_token": 2.5e-06,
+        "input_cost_per_token": 2e-06,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "output_cost_per_image_token": 8e-06,
+        "supported_endpoints": [
+            "/v1/images/generations",
+            "/v1/images/edits"
+        ]
+    },
     "gpt-image-2": {
+        "cache_read_input_image_token_cost": 2.5e-06,
+        "cache_read_input_token_cost": 1.25e-06,
+        "input_cost_per_image_token": 1e-05,
+        "input_cost_per_token": 5e-06,
+        "litellm_provider": "openai",
+        "mode": "image_generation",
+        "output_cost_per_image_token": 4e-05,
+        "supported_endpoints": [
+            "/v1/images/generations",
+            "/v1/images/edits"
+        ]
+    },
+    "gpt-image-2-premium": {
         "cache_read_input_image_token_cost": 2.5e-06,
         "cache_read_input_token_cost": 1.25e-06,
         "input_cost_per_image_token": 1e-05,
