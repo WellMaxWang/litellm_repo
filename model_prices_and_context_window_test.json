@@ -39333,6 +39333,55 @@
         "supports_tool_choice": true,
         "source": "https://aws.amazon.com/bedrock/pricing/"
     },
+    "byteplus/seedream-5-0-pro": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.07
+    },
+    "byteplus/dola-seedream-5-0-pro-260628": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.07
+    },
+    "byteplus/seedream-5-0-260128": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.04
+    },
+    "byteplus/seedream-5-0-lite-260128": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.04
+    },
+    "byteplus/seedream-4-5-251128": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.03
+    },
+    "byteplus/seedream-4-0-250828": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1824121",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.02
+    },
+    "byteplus/seededit-3-0-i2i-250628": {
+        "litellm_provider": "byteplus",
+        "mode": "image_generation",
+        "source": "https://docs.byteplus.com/en/docs/ModelArk/1666946",
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.03
+    },
     "zai.glm-5": {
         "input_cost_per_token": 1e-06,
         "output_cost_per_token": 3.2e-06,
