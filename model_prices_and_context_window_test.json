@@ -51601,5 +51601,93 @@
         "supports_reasoning": true,
         "supports_tool_choice": true,
         "source": "https://docs.z.ai/guides/overview/pricing"
+    },
+    "xrtoken_ai/doubao-seedance-2-0-260128": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.431,
+        "output_cost_per_token": 1.2e-05
+    },
+    "xrtoken_ai/doubao-seedance-2-0-fast-260128": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.216,
+        "output_cost_per_token": 6e-06
+    },
+    "xrtoken_ai/doubao-seedance-2-0-mini-260615": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.073,
+        "output_cost_per_token": 3.5e-06
+    },
+    "xrtoken_ai/doubao-seedance-2-5-260628": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.231,
+        "output_cost_per_token": 1.07e-05
+    },
+    "xrtoken_ai/doubao-seedance-2.0": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.216,
+        "output_cost_per_token": 6e-06
+    },
+    "xrtoken_ai/doubao-seedance-2.0-fast": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.216,
+        "output_cost_per_token": 6e-06
+    },
+    "xrtoken_ai/dreamina-seedance-2-0-260128": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.431,
+        "output_cost_per_token": 1.2e-05
+    },
+    "xrtoken_ai/dreamina-seedance-2-0-fast-260128": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.216,
+        "output_cost_per_token": 6e-06
+    },
+    "xrtoken_ai/dreamina-seedance-2.0-mini": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.073,
+        "output_cost_per_token": 3.5e-06
+    },
+    "xrtoken_ai/dreamina-seedance-2-5-260628": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.231,
+        "output_cost_per_token": 1.07e-05
+    },
+    "xrtoken_ai/seedance-1-5-pro-251215": {
+        "litellm_provider": "xrtoken_ai",
+        "mode": "video_generation",
+        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
+        "supports_response_schema": false,
+        "output_cost_per_second": 0.216,
+        "output_cost_per_token": 6e-06
     }
 }
