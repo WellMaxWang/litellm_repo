@@ -51690,4 +51690,109 @@
         "output_cost_per_second": 0.216,
         "output_cost_per_token": 6e-06
     }
+    "fancyai/app-beverage-photography": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-ecom_shoe_image_shotlist": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-home-appliance-detail-page": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-appliance-photography": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-fashion-shoot": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-ai-comic-drama-role-image": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-xiaohongshu-content-expert": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-generic-ai-koc": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-beauty-storyboard-artist": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-ai-comic-drama-video": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-ai-comic-drama-screenwriter": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-social-media-creator-ops": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-live-stream-analysis-master": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/app-ppt-framework-master-genready-colleague": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    },
+    "fancyai/gemini-3.1-flash-image-preview": {
+        "litellm_provider": "fancyai",
+        "mode": "chat",
+        "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0
+    }
 }
