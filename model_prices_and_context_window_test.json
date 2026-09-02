@@ -49963,6 +49963,26 @@
             }
         ]
     },
+    "volcengine/seed-tts-2.0": {
+        "input_cost_per_character": 0.0,
+        "litellm_provider": "volcengine",
+        "mode": "audio_speech",
+        "source": "https://www.volcengine.com/docs/6561/1257584",
+        "supported_endpoints": [
+            "/v1/audio/speech",
+            "/v1/audio/speech/stream"
+        ]
+    },
+    "volcengine/seed-icl-2.0": {
+        "input_cost_per_character": 0.0,
+        "litellm_provider": "volcengine",
+        "mode": "audio_speech",
+        "source": "https://www.volcengine.com/docs/6561/1257584",
+        "supported_endpoints": [
+            "/v1/audio/speech",
+            "/v1/audio/speech/stream"
+        ]
+    },
     "voyage/rerank-2": {
         "input_cost_per_token": 5e-8,
         "litellm_provider": "voyage",
