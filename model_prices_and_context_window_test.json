@@ -398,85 +398,101 @@
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.035
     },
     "alibaba_cloud/qwen-image-2.0": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.028
     },
     "alibaba_cloud/qwen-image-2.0-pro": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.07
     },
     "alibaba_cloud/qwen-image-3.0": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.025,
+        "input_cost_per_image": 0.0028
     },
     "alibaba_cloud/qwen-image-3.0-pro": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.035,
+        "input_cost_per_image": 0.0028
     },
     "alibaba_cloud/qwen-image-edit": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.035
     },
     "alibaba_cloud/qwen-image-edit-max": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.07
     },
     "alibaba_cloud/qwen-image-edit-plus": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.028
     },
     "alibaba_cloud/qwen-image-max": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.07
     },
     "alibaba_cloud/qwen-image-plus": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.028
     },
     "alibaba_cloud/z-image-turbo": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/image-model",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.014
     },
     "alibaba_cloud/wan2.2-t2i-plus": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/wan-image-api-reference",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.028
     },
     "alibaba_cloud/wan2.5-i2i-preview": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/wan-image-api-reference",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.028
     },
     "alibaba_cloud/wan2.5-t2i-preview": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
         "source": "https://www.alibabacloud.com/help/en/model-studio/wan-image-api-reference",
-        "supports_response_schema": false
+        "supports_response_schema": false,
+        "output_cost_per_image": 0.028
     },
     "alibaba_cloud/wan2.6-i2v-us": {
         "litellm_provider": "alibaba_cloud",
