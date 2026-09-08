@@ -394,6 +394,124 @@
         "source": "https://www.alibabacloud.com/help/zh/model-studio/use-video-generation",
         "supports_response_schema": false
     },
+    "alibaba_cloud/qwen-image": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-2.0": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-2.0-pro": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-3.0": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-3.0-pro": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/models",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-edit": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-edit-max": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-edit-plus": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-max": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/qwen-image-plus": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/qwen-image-api",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/z-image-turbo": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/image-model",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/wan2.2-t2i-plus": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/wan-image-api-reference",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/wan2.5-i2i-preview": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/wan-image-api-reference",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/wan2.5-t2i-preview": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "image_generation",
+        "source": "https://www.alibabacloud.com/help/en/model-studio/wan-image-api-reference",
+        "supports_response_schema": false
+    },
+    "alibaba_cloud/wan2.6-i2v-us": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "video_generation",
+        "source": "https://help.aliyun.com/zh/model-studio/wan2-6-i2v-us",
+        "supports_response_schema": false,
+        "output_cost_per_second_720p": 0.1028,
+        "output_cost_per_second_1080p": 0.1541
+    },
+    "alibaba_cloud/wan2.6-t2v-us": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "video_generation",
+        "source": "https://help.aliyun.com/zh/model-studio/wan2-6-t2v-us",
+        "supports_response_schema": false,
+        "output_cost_per_second_720p": 0.1028,
+        "output_cost_per_second_1080p": 0.1541
+    },
+    "alibaba_cloud/wan3.0-video": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "video_generation",
+        "source": "https://www.alibabacloud.com/help/zh/model-studio/text-to-video-api-reference",
+        "supports_response_schema": false,
+        "output_cost_per_second_480p": 0.042,
+        "output_cost_per_second_720p": 0.084,
+        "output_cost_per_second_1080p": 0.168
+    },
+    "alibaba_cloud/wan3.0-video-prime": {
+        "litellm_provider": "alibaba_cloud",
+        "mode": "video_generation",
+        "source": "https://www.alibabacloud.com/help/zh/model-studio/text-to-video-api-reference",
+        "supports_response_schema": false,
+        "output_cost_per_second_480p": 0.063,
+        "output_cost_per_second_720p": 0.126,
+        "output_cost_per_second_1080p": 0.252
+    },
     "alibaba_cloud/qwen-image-25-on": {
         "litellm_provider": "alibaba_cloud",
         "mode": "image_generation",
