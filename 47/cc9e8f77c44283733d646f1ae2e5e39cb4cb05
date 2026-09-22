@@ -1,0 +1,64 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.7",
+  "base_commit_sha": "47cc9e8f77c44283733d646f1ae2e5e39cb4cb05",
+  "prompts": {
+    "43005663e2aa0752": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a58a24283666623d78d2b76",
+        "model": "unknown"
+      },
+      "human_author": "weicheng <weicheng@cmhi.chinamobile.com>",
+      "messages": [],
+      "total_additions": 16,
+      "total_deletions": 0,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    }
+  },
+  "commit_stats": {
+    "git_diff_added_lines": 37,
+    "git_diff_deleted_lines": 85,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 37,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "model_prices_and_context_window_test.json": {
+        "BYMC": [
+          "50101",
+          "50111",
+          "51765",
+          "51773",
+          "51781",
+          "51789",
+          "51797",
+          "51803-51804",
+          "51810-51811",
+          "51817-51818",
+          "51824-51825",
+          "51831-51832",
+          "51838-51839",
+          "51845-51846",
+          "51852-51853",
+          "51859-51860",
+          "51866-51867",
+          "51873-51874",
+          "51880-51881",
+          "51887-51888",
+          "51894-51895",
+          "51901-51902"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "ipa_account": "weicheng",
+  "commit_timestamp": 1790066204,
+  "requirement_id": ""
+}
