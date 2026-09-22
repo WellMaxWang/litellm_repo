@@ -50098,7 +50098,7 @@
         ]
     },
     "volcengine/seed-tts-2.0": {
-        "input_cost_per_character": 0.0,
+        "input_cost_per_character": 0,
         "litellm_provider": "volcengine",
         "mode": "audio_speech",
         "source": "https://www.volcengine.com/docs/6561/1257584",
@@ -50108,7 +50108,7 @@
         ]
     },
     "volcengine/seed-icl-2.0": {
-        "input_cost_per_character": 0.0,
+        "input_cost_per_character": 0,
         "litellm_provider": "volcengine",
         "mode": "audio_speech",
         "source": "https://www.volcengine.com/docs/6561/1257584",
@@ -51756,61 +51756,13 @@
         "supports_tool_choice": true,
         "source": "https://docs.z.ai/guides/overview/pricing"
     },
-    "xrtoken_ai/doubao-seedance-2-0-260128": {
-        "litellm_provider": "xrtoken_ai",
-        "mode": "video_generation",
-        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
-        "supports_response_schema": false,
-        "output_cost_per_second": 0.431,
-        "output_cost_per_token": 1.2e-05
-    },
-    "xrtoken_ai/doubao-seedance-2-0-fast-260128": {
-        "litellm_provider": "xrtoken_ai",
-        "mode": "video_generation",
-        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
-        "supports_response_schema": false,
-        "output_cost_per_second": 0.216,
-        "output_cost_per_token": 6e-06
-    },
-    "xrtoken_ai/doubao-seedance-2-0-mini-260615": {
-        "litellm_provider": "xrtoken_ai",
-        "mode": "video_generation",
-        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
-        "supports_response_schema": false,
-        "output_cost_per_second": 0.073,
-        "output_cost_per_token": 3.5e-06
-    },
-    "xrtoken_ai/doubao-seedance-2-5-260628": {
-        "litellm_provider": "xrtoken_ai",
-        "mode": "video_generation",
-        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
-        "supports_response_schema": false,
-        "output_cost_per_second": 0.231,
-        "output_cost_per_token": 1.07e-05
-    },
-    "xrtoken_ai/doubao-seedance-2.0": {
-        "litellm_provider": "xrtoken_ai",
-        "mode": "video_generation",
-        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
-        "supports_response_schema": false,
-        "output_cost_per_second": 0.216,
-        "output_cost_per_token": 6e-06
-    },
-    "xrtoken_ai/doubao-seedance-2.0-fast": {
-        "litellm_provider": "xrtoken_ai",
-        "mode": "video_generation",
-        "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
-        "supports_response_schema": false,
-        "output_cost_per_second": 0.216,
-        "output_cost_per_token": 6e-06
-    },
     "xrtoken_ai/dreamina-seedance-2-0-260128": {
         "litellm_provider": "xrtoken_ai",
         "mode": "video_generation",
         "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
         "supports_response_schema": false,
         "output_cost_per_second": 0.431,
-        "output_cost_per_token": 1.2e-05
+        "output_cost_per_token": 0.000012
     },
     "xrtoken_ai/dreamina-seedance-2-0-fast-260128": {
         "litellm_provider": "xrtoken_ai",
@@ -51818,7 +51770,7 @@
         "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
         "supports_response_schema": false,
         "output_cost_per_second": 0.216,
-        "output_cost_per_token": 6e-06
+        "output_cost_per_token": 0.000006
     },
     "xrtoken_ai/dreamina-seedance-2.0-mini": {
         "litellm_provider": "xrtoken_ai",
@@ -51826,7 +51778,7 @@
         "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
         "supports_response_schema": false,
         "output_cost_per_second": 0.073,
-        "output_cost_per_token": 3.5e-06
+        "output_cost_per_token": 0.0000035
     },
     "xrtoken_ai/dreamina-seedance-2-5-260628": {
         "litellm_provider": "xrtoken_ai",
@@ -51834,7 +51786,7 @@
         "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
         "supports_response_schema": false,
         "output_cost_per_second": 0.231,
-        "output_cost_per_token": 1.07e-05
+        "output_cost_per_token": 0.0000107
     },
     "xrtoken_ai/seedance-1-5-pro-251215": {
         "litellm_provider": "xrtoken_ai",
@@ -51842,111 +51794,111 @@
         "source": "https://xrtoken.ai/docs/zh/api/createVideoGeneration",
         "supports_response_schema": false,
         "output_cost_per_second": 0.216,
-        "output_cost_per_token": 6e-06
+        "output_cost_per_token": 0.000006
     },
     "fancyai/app-beverage-photography": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-ecom_shoe_image_shotlist": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-home-appliance-detail-page": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-appliance-photography": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-fashion-shoot": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-ai-comic-drama-role-image": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-xiaohongshu-content-expert": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-generic-ai-koc": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-beauty-storyboard-artist": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-ai-comic-drama-video": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-ai-comic-drama-screenwriter": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-social-media-creator-ops": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-live-stream-analysis-master": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/app-ppt-framework-master-genready-colleague": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     },
     "fancyai/gemini-3.1-flash-image-preview": {
         "litellm_provider": "fancyai",
         "mode": "chat",
         "source": "https://fancyai.com/docs/zh/api-reference/skill/skill-stream-beverage-photography",
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0
+        "input_cost_per_token": 0.000001,
+        "output_cost_per_token": 0.000001
     }
 }
