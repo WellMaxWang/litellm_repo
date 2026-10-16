@@ -1,0 +1,29 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.7",
+  "base_commit_sha": "6ded2ed27ab95d53f881698bb4d5c4aad8ad94f9",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 14,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 14,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "model_prices_and_context_window.json": {
+        "BYMC": [
+          "13240-13253"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "ipa_account": "weicheng",
+  "commit_timestamp": 1792138337,
+  "requirement_id": ""
+}
