@@ -1,0 +1,71 @@
+model_prices_and_context_window_test.json
+  f0cb07dd10491309 76160-77965
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.0",
+  "base_commit_sha": "ea964fe01d517f684a2ee6640776fec1248c14c3",
+  "prompts": {
+    "117567c01212f4d6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ad823436b5204d50e6c36db",
+        "model": "unknown"
+      },
+      "human_author": "韦成 <weicheng@cmhi.chinamobile.com>",
+      "messages": [],
+      "total_additions": 1864,
+      "total_deletions": 96,
+      "accepted_lines": 1768,
+      "overriden_lines": 0
+    },
+    "ec0c14e1b9d21a23": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6ae9a383f9c2e51a7fda6a5f",
+        "model": "unknown"
+      },
+      "human_author": "韦成 <weicheng@cmhi.chinamobile.com>",
+      "messages": [],
+      "total_additions": 20,
+      "total_deletions": 0,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    },
+    "f0cb07dd10491309": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6b03f0a8f9c2e51a7fda924f",
+        "model": "unknown"
+      },
+      "human_author": "韦成 <weicheng@cmhi.chinamobile.com>",
+      "messages": [],
+      "total_additions": 80260,
+      "total_deletions": 76171,
+      "accepted_lines": 4099,
+      "overriden_lines": 0
+    }
+  },
+  "commit_stats": {
+    "git_diff_added_lines": 1806,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 1806,
+    "ai_accepted": 1806,
+    "BYMC": 0,
+    "mixed_additions": 0,
+    "BYAC": 1806,
+    "BYRC": 0,
+    "per_file": {
+      "model_prices_and_context_window_test.json": {
+        "BYMC": [],
+        "BYAC": [
+          "76160-77965"
+        ],
+        "BYRC": []
+      }
+    }
+  },
+  "ipa_account": "weicheng",
+  "commit_timestamp": 1795501290,
+  "requirement_id": ""
+}
